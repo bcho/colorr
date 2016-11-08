@@ -2,10 +2,11 @@
   "private": true,
   "name": "colorr",
   "scripts": {
-    "dev": "vbuild --dev",
-    "build": "vbuild"
+    "dev": "gulp dev",
+    "build": "gulp publish"
   },
   "dependencies": {
     "vue": "^2.0.0"
-  }
+  },
+  "devDependencies": {}
 }
