@@ -1,10 +1,8 @@
 import Vue from 'vue'
-import App from 'components/App.vue'
 
-import ColorStage from 'components/ColorStage.vue';
+const App = require('./components/App.vue');
+const ColorStage = require('./components/ColorStage.vue');
 
 Vue.component(ColorStage.name, ColorStage);
 
-export default new Vue({
-  ...App
-})
+export default new Vue(App)
